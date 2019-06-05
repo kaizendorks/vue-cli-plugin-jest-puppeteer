@@ -7,6 +7,7 @@ This plugin configures your project with everything necessary to write E2E tests
 
 - adds [jest](https://www.npmjs.com/package/jest), [jest-puppeteer](https://www.npmjs.com/package/jest-puppeteer) and [puppeteer](https://www.npmjs.com/package/puppeteer) as dev-dependencies
 - adds the necessary config files
+- setups babel to support ES6 modules in the E2E test files
 - adds the `test:e2e` command to the package.json
 - adds a sample E2E test
 
@@ -16,10 +17,10 @@ Run the following command from your project's root folder: `vue add jest-puppete
 - For more information on how to add plugins to your project, see: https://cli.vuejs.org/guide/plugins-and-presets.html#installing-plugins-in-an-existing-project
 
 Adding the plugin will update your project as in:
-- Adding the necessary config files `jest-puppeteer.config.js` and `jest.e2e.config.js` to the project root.
-- Adding the E2E tests folder with a sample test in `/test/e2e/basic.spec.js`
 - Adding the `test:e2e` script to your package.json
-- Installing the necessary devDependencies, [jest](https://www.npmjs.com/package/jest), [jest-puppeteer](https://www.npmjs.com/package/jest-puppeteer) and [puppeteer](https://www.npmjs.com/package/puppeteer)
+- Adding the E2E tests folder with a sample test in `/test/e2e/basic.spec.js`
+- Adding the necessary config files `jest-puppeteer.config.js` and `jest.e2e.config.js` to the project root, and `.babelrc.js` to the `test/e2e` folder.
+- Installing the necessary devDependencies, [jest](https://www.npmjs.com/package/jest), [jest-puppeteer](https://www.npmjs.com/package/jest-puppeteer), [puppeteer](https://www.npmjs.com/package/puppeteer), [babel-jest](https://www.npmjs.com/package/babel-jest) and [babel-plugin-transform-es2015-modules-commonjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-commonjs)
 
 ### Options (In development!)
 
