@@ -1,5 +1,4 @@
 # vue-cli-plugin-jest-puppeteer
-> Docker plugin for the Vue CLI 3
 > In development!
 
 

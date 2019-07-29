@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-jest-puppeteer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Vue CLI 3 plugin for writing E2E tests with jest and puppeteer",
   "main": "index.js",
   "scripts": {
