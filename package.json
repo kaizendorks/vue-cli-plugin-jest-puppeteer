@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-jest-puppeteer",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Vue CLI 3 plugin for writing E2E tests with jest and puppeteer",
   "main": "index.js",
   "scripts": {
@@ -32,11 +32,11 @@
   },
   "homepage": "https://github.com/kaizendorks/vue-cli-plugin-jest-puppeteer#readme",
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react": "^7.19.0",
     "husky": "3.0.9"
   }
 }
